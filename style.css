@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  --contrast-font: rgb(199, 53, 53);
+}
+body,
+html {
+  scroll-behavior: smooth;
+}
+header {
+  margin: 0;
+  border: 0;
+  display: flex;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar-brand p {
+  font-family: "Dancing Script", sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+  color: black;
+}
+header svg {
+  fill: var(--contrast-font);
+}
+
+.navbar-menu a {
+  color: var(--contrast-font);
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: 0 1rem;
+  text-align: center;
+}
+#navMenu a {
+  text-transform: uppercase;
+}
+.intro {
+  height: 400px;
+  background: #da9367;
+  background: url(https://images.unsplash.com/photo-1566346289644-4e9c3dce657d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=804&q=80)
+    rgba(207, 194, 189, 0.5);
+  background-size: cover;
+  background-position: center;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.intro .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.intro h2 {
+  color: var(--contrast-font) !important;
+  padding: 10px 30px;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 5em;
+  justify-content: center;
+  font-family: "Dancing Script", sans-serif;
+}
+img {
+  width: 100%;
+}
+.offer {
+  padding-top: 80px;
+}
+.fav {
+  background: #f8f5f3;
+  padding: 60px 30px;
+}
+.fav_image {
+  background: url(https://images.unsplash.com/photo-1532529202439-0312ecbf3ae9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+}
+span.tag.is-black {
+  background: #da9367;
+}
+.text_dark {
+  color: #000;
+}
+.text_light {
+  color: #fff;
+}
+.text_centered {
+  text-align: center;
+}
+.spacer {
+  height: 20px;
+}
+.divider {
+  height: 3px;
+  background: #000;
+  width: 300px;
+  margin-bottom: 20px;
+}
+.divider_full {
+  height: 1px;
+  background: rgba(207, 194, 189, 0.5);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+dl {
+  margin-top: 20px;
+}
+
+.specialty .prices {
+  margin-bottom: 60px;
+}
+.specialty .prices,
+.specialty h2 {
+  text-align: center;
+}
+.specialty_details {
+  background: #efebe9;
+  padding: 20px;
+  margin-top: -10px;
+}
+.contact {
+  background: #000;
+}
+.contact_image {
+  background: url(https://images.unsplash.com/photo-1533630757306-cbadb934bcb1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+}
+.contact p,
+.contact a {
+  color: #fff;
+  font-style: normal;
+}
+address p {
+  display: inline-block;
+}
+.discount {
+  border: 1px dashed #79391d;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  section#contact {
+    text-align: center;
+  }
+  .column.is-half.fav_image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+  }
+}
